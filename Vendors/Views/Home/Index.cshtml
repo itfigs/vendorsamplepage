@@ -1,0 +1,238 @@
+﻿
+
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit = no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity=" sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <title>Bootstrap 4 Example</title>
+</head>
+<body>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous">
+
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous">
+
+    </script>
+
+    <div class="header">
+        <h1>Vendors</h1>
+
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="col">
+            <label for="explicit-label-name" class="label rounded">Vendor </label>
+            <select name="cars" id="cars" class="rounded">
+                <option value="Action">Action</option>
+                <option value="Another action">Another action</option>
+                <option value="Something else her">Something else her</option>
+                <option value="Separated link">Separated link</option>
+            </select>
+        </div>
+        <div class="col-sm-4">
+            <button class="rounded mr-4"><i class="bi bi-keyboard"></i>AddOn</button>
+
+            <button class="col-icon-pencil rounded  mr-4"><i class="bi bi-pencil-fill"></i></button>
+
+            <button class="rounded  mr-4">
+                <i class="bi bi-file-earmark-fill"></i>
+            </button>
+
+            <button class="rounded  mr-4"><i class="fa fa-home"></i></button>
+
+            <button class="rounded  mr-4"><i class="bi bi-x-square"></i></i></button>
+
+
+        </div>
+
+    </div>
+
+
+    <ul class="nav nav-pills" style="margin-top: 15px;">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#home">Contact Information</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu1">Classification</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu2">AISettings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu2">ExpeditorSettings</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+
+    <div class="tab-content mt-3">
+        <div class="tab-pane container active" id="home">
+
+            <div class="row">
+                <div class="col col-sm-6">
+
+                    <label for="explicit-label-name" class="rounded  col-sm-6">RFQ First Name1 </label>
+                    <input type="text" id="explicit-label-name" class="rounded  width_test" />
+                </div>
+
+                <div class="col ">
+                    <label for="explicit-label-name" class="rounded  col-sm-6">RFQ First Name2 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">RFQ Last Name1 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">RFQ Last Name2 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">RFQ Email Address1 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">RFQ Email Address2 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+
+
+            <div class="form-check">
+                <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios1" value="a" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    Use RFQ Email Addressess for PO's
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="a" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    Add different contact(s) for PO's
+                </label>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">PO First Name1 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">PO First Name2 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">PO Last Name1 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">PO Last Name2 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">PO Email Address1 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">PO Email Address2 </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded ">Phone# </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="Address  rounded">Address </label>
+                    <textarea id="explicit-label-name" class="rounded width_test rows=5 cols=40"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">City </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">State </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">Zip Code </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+
+                <div class="col">
+                    <label for="explicit-label-name" class="rounded">Country </label>
+                    <input type="text" id="explicit-label-name" class="rounded width_test" />
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tab-pane container fade" id="menu1"><h3>Classification</h3></div>
+        <div class="tab-pane container fade" id="menu2"><h3>AISettings</h3></div>
+        <div class="tab-pane container fade" id="menu2"><h3>ExpeditorSettings</h3></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.tab-content .row {
+    margin-bottom: 30px;
+}
+
+.row .col label {
+    background-color: #000A63;
+    padding-right: 50px;
+    border: 1PX SOLID #767676;
+    width: 240px;
+    line-height: 28px;
+    margin-right: -6px;
+    padding-left: 5px;
+    color: white;
+}
+
+.width_test {
+    width: 240px;
+}
+
+.row .col .label {
+    margin-top: 1px;
+    background-color: #9FA6B2;
+    color: darkblue;
+}
+
+.row .col select {
+    width: 200px;
+    height: 30px;
+}
+
+.row .col .Address {
+    background-color: #000A63;
+    padding-right: 50px;
+    border: 1PX SOLID #767676;
+    line-height: 28px;
+    margin-right: -6px;
+    padding-left: 5px;
+    color: white;
+    height: 55px;
+    line-height: inherit;
+    width: 240px;
+}
+
+.row .col textarea {
+    margin-bottom: -36px;
+    width: 240px;
+    border: 2PX SOLID black;
+}
+
+.form-check .form-check-label {
+    margin-bottom: 20px;
+}
+
+/*.row .col button {
+    margin-left: 210px;
+    border-radius: 6px;
+}*/
+
+.header {
+    padding: 4px;
+    text-align: center;
+    background: #000A63;
+    color: lightblue;
+    font-size: 30px;
+}
+
+.nav.nav-pills .nav-link.active {
+    background-color: #000A63;
+    color: white;
+}
+
+.nav.nav-pills .nav-link {
+    background-color: #9FA6B2;
+    color: darkblue;
+    margin: 0;
+}
